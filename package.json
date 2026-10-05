@@ -1,0 +1,14 @@
+{
+  "name": "project-eclipse-webgl",
+  "version": "2.0.0",
+  "private": true,
+  "description": "PROJECT ECLIPSE - original third-person sci-fi WebGL browser game",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node server.mjs --dev",
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "check": "node --check game.js && node --check server.mjs && node --check build.mjs"
+  }
+}

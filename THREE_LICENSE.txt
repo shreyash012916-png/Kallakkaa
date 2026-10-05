@@ -1,0 +1,4 @@
+Three.js 0.186.1 is used as the WebGL runtime.
+It is distributed under the MIT License.
+Project: https://threejs.org/
+The browser build is loaded from jsDelivr at runtime.
